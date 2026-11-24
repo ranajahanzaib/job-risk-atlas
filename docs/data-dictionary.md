@@ -1,0 +1,5 @@
+# Data dictionary status
+
+The source-faithful ORS SQLite table retains `series_id`, `series_title`, six-character `soc_code` (2018 SOC), occupation title, requirement, estimate code/text, category code/label, additive code/label, datatype code/label, original `estimate_raw`, original `standard_error_raw`, original `footnote_raw`, `source_sheet`, and one-based `source_row`. Separate tables contain distinct source occupation code/title pairs and footnote code/text definitions. The acquisition manifest records source dataset ID, official source URL, retrieval time (UTC), original filename, byte size, SHA-256 digest, and workbook sheet previews.
+
+Any harmonized schema should preserve these original values alongside normalized estimate/status, estimate type, unit, occupation classification, reference year, population scope, footnotes, and workbook/sheet/cell provenance. CFOI records should distinguish counts from official published rates and retain denominator metadata and event hierarchy. Suppressed, unpublished, and unmatched records remain distinct from numeric zeroes.

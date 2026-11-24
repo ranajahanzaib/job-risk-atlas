@@ -19,8 +19,9 @@ Steps to reproduce the behavior:
 A clear and concise description of what you expected to happen.
 
 **Environment**
-- OS: [e.g. macOS 26.4.1, Windows 11, Ubuntu 24.04.4]
-- Version: [e.g. 1.0.0]
+- OS and version:
+- Browser and version:
+- Project revision or release:
 
 **Additional context**
 Add any other context or screenshots here.
